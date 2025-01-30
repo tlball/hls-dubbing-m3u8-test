@@ -24,9 +24,9 @@ https://hls.ted.com/project_masters/9223/index-f13-v1.m3u8?intro_master_id=9294
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=4193573,RESOLUTION=1920x1080,FRAME-RATE=23.974,CODECS="avc1.640029,mp4a.40.2",AVERAGE-BANDWIDTH=2820109,AUDIO="audio0",VIDEO="video"
 https://hls.ted.com/project_masters/9223/index-f14-v1.m3u8?intro_master_id=9294
 
-#EXT-X-MEDIA:TYPE=VIDEO,GROUP-ID="video",LANGUAGE="en",NAME="English",AUTOSELECT=YES,DEFAULT=YES,URI="../alternate-media-test.m3u8"
-#EXT-X-MEDIA:TYPE=VIDEO,GROUP-ID="video",LANGUAGE="es",NAME="Español",AUTOSELECT=YES,DEFAULT=NO,URI="./alternate-media-test.m3u8"
-#EXT-X-MEDIA:TYPE=VIDEO,GROUP-ID="video",LANGUAGE="fr",NAME="French",AUTOSELECT=YES,DEFAULT=NO,URI="../fr/alternate-media-test.m3u8"
+#EXT-X-MEDIA:TYPE=VIDEO,GROUP-ID="video",LANGUAGE="en",NAME="English",AUTOSELECT=YES,DEFAULT=NO,URI="alternate-media-test.m3u8"
+#EXT-X-MEDIA:TYPE=VIDEO,GROUP-ID="video",LANGUAGE="es",NAME="Español",AUTOSELECT=YES,DEFAULT=NO,URI="alternate-media-test-es.m3u8"
+#EXT-X-MEDIA:TYPE=VIDEO,GROUP-ID="video",LANGUAGE="fr",NAME="French",AUTOSELECT=YES,DEFAULT=YES,URI="alternate-media-test-fr.m3u8"
 #EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="audio0",NAME="French low",AUTOSELECT=NO,DEFAULT=NO,CHANNELS="1",URI="https://hls.ted.com/project_masters/9223/index-f5-a1.m3u8?intro_master_id=9294",LANGUAGE="fr"
 #EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="audio0",NAME="French medium",AUTOSELECT=YES,DEFAULT=NO,CHANNELS="2",URI="https://hls.ted.com/project_masters/9223/index-f8-a1.m3u8?intro_master_id=9294",LANGUAGE="fr"
 #EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="audio0",NAME="French high",AUTOSELECT=NO,DEFAULT=NO,CHANNELS="2",URI="https://hls.ted.com/project_masters/9223/index-f12-a1.m3u8?intro_master_id=9294",LANGUAGE="fr"

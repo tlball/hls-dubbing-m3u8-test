@@ -1,0 +1,32 @@
+#EXTM3U
+#EXT-X-VERSION:4
+#EXT-X-INDEPENDENT-SEGMENTS
+#EXT-X-STREAM-INF:BANDWIDTH=1102319,RESOLUTION=854x480,FRAME-RATE=23.974,CODECS="avc1.64001f,mp4a.40.2",AVERAGE-BANDWIDTH=852038,AUDIO="audio0",VIDEO="video",NAME="English",LANGUAGE="en"
+https://hls.ted.com/project_masters/798/index-f9-v1.m3u8?intro_master_id=9294
+#EXT-X-STREAM-INF:BANDWIDTH=157231,RESOLUTION=320x180,FRAME-RATE=23.974,CODECS="avc1.42c00d,mp4a.40.2",AVERAGE-BANDWIDTH=121908,AUDIO="audio0",VIDEO="video",NAME="English",LANGUAGE="en"
+https://hls.ted.com/project_masters/798/index-f1-v1.m3u8?intro_master_id=9294
+#EXT-X-STREAM-INF:BANDWIDTH=238687,RESOLUTION=320x180,FRAME-RATE=23.974,CODECS="avc1.42c01e,mp4a.40.2",AVERAGE-BANDWIDTH=206421,AUDIO="audio0",VIDEO="video",NAME="English",LANGUAGE="en"
+https://hls.ted.com/project_masters/798/index-f2-v1.m3u8?intro_master_id=9294
+#EXT-X-STREAM-INF:BANDWIDTH=347465,RESOLUTION=416x234,FRAME-RATE=23.974,CODECS="avc1.42c01e,mp4a.40.2",AVERAGE-BANDWIDTH=274835,AUDIO="audio0",VIDEO="video",NAME="English",LANGUAGE="en"
+https://hls.ted.com/project_masters/798/index-f3-v1.m3u8?intro_master_id=9294
+#EXT-X-STREAM-INF:BANDWIDTH=462745,RESOLUTION=416x234,FRAME-RATE=23.974,CODECS="avc1.64001e,mp4a.40.2",AVERAGE-BANDWIDTH=359841,AUDIO="audio0",VIDEO="video",NAME="English",LANGUAGE="en"
+https://hls.ted.com/project_masters/798/index-f4-v1.m3u8?intro_master_id=9294
+#EXT-X-STREAM-INF:BANDWIDTH=572506,RESOLUTION=480x270,FRAME-RATE=23.974,CODECS="avc1.64001f,mp4a.40.2",AVERAGE-BANDWIDTH=402984,AUDIO="audio0",VIDEO="video",NAME="English",LANGUAGE="en"
+https://hls.ted.com/project_masters/798/index-f6-v1.m3u8?intro_master_id=9294
+#EXT-X-STREAM-INF:BANDWIDTH=926579,RESOLUTION=640x360,FRAME-RATE=23.974,CODECS="avc1.64001f,mp4a.40.2",AVERAGE-BANDWIDTH=719410,AUDIO="audio0",VIDEO="video",NAME="English",LANGUAGE="en"
+https://hls.ted.com/project_masters/798/index-f7-v1.m3u8?intro_master_id=9294
+#EXT-X-STREAM-INF:BANDWIDTH=1739977,RESOLUTION=1280x720,FRAME-RATE=23.974,CODECS="avc1.64001f,mp4a.40.2",AVERAGE-BANDWIDTH=1292762,AUDIO="audio0",VIDEO="video",NAME="English",LANGUAGE="en"
+https://hls.ted.com/project_masters/798/index-f10-v1.m3u8?intro_master_id=9294
+#EXT-X-STREAM-INF:BANDWIDTH=2811623,RESOLUTION=1280x720,FRAME-RATE=23.974,CODECS="avc1.64001f,mp4a.40.2",AVERAGE-BANDWIDTH=2145305,AUDIO="audio0",VIDEO="video",NAME="English",LANGUAGE="en"
+https://hls.ted.com/project_masters/798/index-f11-v1.m3u8?intro_master_id=9294
+#EXT-X-STREAM-INF:BANDWIDTH=3759170,RESOLUTION=1920x1080,FRAME-RATE=23.974,CODECS="avc1.640029,mp4a.40.2",AVERAGE-BANDWIDTH=3127476,AUDIO="audio0",VIDEO="video",NAME="English",LANGUAGE="en"
+https://hls.ted.com/project_masters/798/index-f13-v1.m3u8?intro_master_id=9294
+#EXT-X-STREAM-INF:BANDWIDTH=4480577,RESOLUTION=1920x1080,FRAME-RATE=23.974,CODECS="avc1.640029,mp4a.40.2",AVERAGE-BANDWIDTH=2827462,AUDIO="audio0",VIDEO="video",NAME="English",LANGUAGE="en"
+https://hls.ted.com/project_masters/798/index-f14-v1.m3u8?intro_master_id=9294
+
+#EXT-X-MEDIA:TYPE=VIDEO,GROUP-ID="video",LANGUAGE="en",NAME="English",AUTOSELECT=YES,DEFAULT=YES,URI="./alternate-media-test.m3u8"
+#EXT-X-MEDIA:TYPE=VIDEO,GROUP-ID="video",LANGUAGE="es",NAME="Español",AUTOSELECT=YES,DEFAULT=NO,URI="./es/alternate-media-test.m3u8"
+#EXT-X-MEDIA:TYPE=VIDEO,GROUP-ID="video",LANGUAGE="fr",NAME="French",AUTOSELECT=YES,DEFAULT=NO,URI="./fr/alternate-media-test.m3u8"
+#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="audio0",NAME="English low",AUTOSELECT=NO,DEFAULT=NO,CHANNELS="1",URI="https://hls.ted.com/project_masters/798/index-f5-a1.m3u8?intro_master_id=9294",LANGUAGE="en"
+#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="audio0",NAME="English medium",AUTOSELECT=YES,DEFAULT=YES,CHANNELS="2",URI="https://hls.ted.com/project_masters/798/index-f8-a1.m3u8?intro_master_id=9294",LANGUAGE="en"
+#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="audio0",NAME="English high",AUTOSELECT=NO,DEFAULT=NO,CHANNELS="2",URI="https://hls.ted.com/project_masters/798/index-f12-a1.m3u8?intro_master_id=9294",LANGUAGE="en"

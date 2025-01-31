@@ -10,9 +10,9 @@ https://raw.githubusercontent.com/tlball/hls-dubbing-m3u8-test/refs/heads/test-a
 #EXT-X-STREAM-INF:BANDWIDTH=4480577,RESOLUTION=1920x1080,FRAME-RATE=23.974,CODECS="avc1.640029,mp4a.40.2",AVERAGE-BANDWIDTH=2827462,AUDIO="audio0",VIDEO="video",NAME="French~",LANGUAGE="fr"
 https://raw.githubusercontent.com/tlball/hls-dubbing-m3u8-test/refs/heads/test-all-local-files/fr/index-f14-v1.m3u8
 
-#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="audio0",NAME="low",AUTOSELECT=YES,DEFAULT=NO,CHANNELS="1",URI="https://raw.githubusercontent.com/tlball/hls-dubbing-m3u8-test/refs/heads/test-all-local-files/fr/index-f5-a1.m3u8",LANGUAGE="fr"
-#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="audio0",NAME="medium",AUTOSELECT=YES,DEFAULT=YES,CHANNELS="2",URI="https://raw.githubusercontent.com/tlball/hls-dubbing-m3u8-test/refs/heads/test-all-local-files/fr/index-f8-a1.m3u8",LANGUAGE="fr"
-#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="audio0",NAME="high",AUTOSELECT=YES,DEFAULT=NO,CHANNELS="2",URI="https://raw.githubusercontent.com/tlball/hls-dubbing-m3u8-test/refs/heads/test-all-local-files/fr/index-f12-a1.m3u8",LANGUAGE="fr"
+#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="audio0",NAME="Enlglish med",AUTOSELECT=YES,DEFAULT=NO,CHANNELS="2",URI="https://raw.githubusercontent.com/tlball/hls-dubbing-m3u8-test/refs/heads/test-all-local-files/en/index-f8-a1.m3u8",LANGUAGE="en"
+#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="audio0",NAME="Spanish med",AUTOSELECT=YES,DEFAULT=NO,CHANNELS="2",URI="https://raw.githubusercontent.com/tlball/hls-dubbing-m3u8-test/refs/heads/test-all-local-files/en/index-f8-a1.m3u8",LANGUAGE="es"
+#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="audio0",NAME="French* med",AUTOSELECT=YES,DEFAULT=YES,CHANNELS="2",URI="https://raw.githubusercontent.com/tlball/hls-dubbing-m3u8-test/refs/heads/test-all-local-files/en/index-f18-a1.m3u8",LANGUAGE="fr"
 #EXT-X-MEDIA:TYPE=VIDEO,GROUP-ID="video",LANGUAGE="en",NAME="English-",AUTOSELECT=YES,DEFAULT=NO,URI="https://raw.githubusercontent.com/tlball/hls-dubbing-m3u8-test/refs/heads/test-all-local-files/en/manifest.m3u8"
 #EXT-X-MEDIA:TYPE=VIDEO,GROUP-ID="video",LANGUAGE="es",NAME="Español-",AUTOSELECT=YES,DEFAULT=NO,URI="https://raw.githubusercontent.com/tlball/hls-dubbing-m3u8-test/refs/heads/test-all-local-files/es/manifest.m3u8"
 #EXT-X-MEDIA:TYPE=VIDEO,GROUP-ID="video",LANGUAGE="fr",NAME="French*",AUTOSELECT=YES,DEFAULT=YES

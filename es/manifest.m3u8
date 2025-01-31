@@ -11,8 +11,8 @@ https://raw.githubusercontent.com/tlball/hls-dubbing-m3u8-test/refs/heads/test-o
 https://raw.githubusercontent.com/tlball/hls-dubbing-m3u8-test/refs/heads/test-one-audio-group/es/index-f14-v1.m3u8
 
 #EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="audio0",NAME="Enlglish med",AUTOSELECT=YES,DEFAULT=NO,CHANNELS="2",URI="https://raw.githubusercontent.com/tlball/hls-dubbing-m3u8-test/refs/heads/test-one-audio-group/en/index-f8-a1.m3u8",LANGUAGE="en"
-#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="audio0",NAME="Spanish* med",AUTOSELECT=YES,DEFAULT=YES,CHANNELS="2",URI="https://raw.githubusercontent.com/tlball/hls-dubbing-m3u8-test/refs/heads/test-one-audio-group/en/index-f8-a1.m3u8",LANGUAGE="es"
-#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="audio0",NAME="French med",AUTOSELECT=YES,DEFAULT=NO,CHANNELS="2",URI="https://raw.githubusercontent.com/tlball/hls-dubbing-m3u8-test/refs/heads/test-one-audio-group/en/index-f18-a1.m3u8",LANGUAGE="fr"
+#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="audio0",NAME="Spanish* med",AUTOSELECT=YES,DEFAULT=YES,CHANNELS="2",URI="https://raw.githubusercontent.com/tlball/hls-dubbing-m3u8-test/refs/heads/test-one-audio-group/es/index-f8-a1.m3u8",LANGUAGE="es"
+#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="audio0",NAME="French med",AUTOSELECT=YES,DEFAULT=NO,CHANNELS="2",URI="https://raw.githubusercontent.com/tlball/hls-dubbing-m3u8-test/refs/heads/test-one-audio-group/fr/index-f8-a1.m3u8",LANGUAGE="fr"
 #EXT-X-MEDIA:TYPE=VIDEO,GROUP-ID="video",LANGUAGE="en",NAME="English-",AUTOSELECT=YES,DEFAULT=NO,URI="https://raw.githubusercontent.com/tlball/hls-dubbing-m3u8-test/refs/heads/test-one-audio-group/en/manifest.m3u8"
 #EXT-X-MEDIA:TYPE=VIDEO,GROUP-ID="video",LANGUAGE="es",NAME="Español*",AUTOSELECT=YES,DEFAULT=YES
 #EXT-X-MEDIA:TYPE=VIDEO,GROUP-ID="video",LANGUAGE="fr",NAME="French-",AUTOSELECT=YES,DEFAULT=NO,URI="https://raw.githubusercontent.com/tlball/hls-dubbing-m3u8-test/refs/heads/test-one-audio-group/fr/manifest.m3u8"

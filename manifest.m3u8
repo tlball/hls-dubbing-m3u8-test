@@ -10,6 +10,6 @@ https://raw.githubusercontent.com/tlball/hls-dubbing-m3u8-test/refs/heads/test-p
 #EXT-X-STREAM-INF:BANDWIDTH=4480577,RESOLUTION=1920x1080,FRAME-RATE=23.974,CODECS="avc1.640029,mp4a.40.2",AVERAGE-BANDWIDTH=2827462,VIDEO="video"
 https://raw.githubusercontent.com/tlball/hls-dubbing-m3u8-test/refs/heads/test-parent-master-playlist/en/manifest.m3u8
 
-#EXT-X-MEDIA:TYPE=VIDEO,GROUP-ID="video",LANGUAGE="en",NAME="English-*",AUTOSELECT=YES,DEFAULT=YES,URI="https://raw.githubusercontent.com/tlball/hls-dubbing-m3u8-test/refs/heads/test-parent-master-playlist/en/manifest.m3u8"
+#EXT-X-MEDIA:TYPE=VIDEO,GROUP-ID="video",LANGUAGE="en",NAME="English-*",AUTOSELECT=YES,DEFAULT=NO,URI="https://raw.githubusercontent.com/tlball/hls-dubbing-m3u8-test/refs/heads/test-parent-master-playlist/en/manifest.m3u8"
 #EXT-X-MEDIA:TYPE=VIDEO,GROUP-ID="video",LANGUAGE="es",NAME="Español-",AUTOSELECT=YES,DEFAULT=NO,URI="https://raw.githubusercontent.com/tlball/hls-dubbing-m3u8-test/refs/heads/test-parent-master-playlist/es/manifest.m3u8"
 #EXT-X-MEDIA:TYPE=VIDEO,GROUP-ID="video",LANGUAGE="fr",NAME="French-",AUTOSELECT=YES,DEFAULT=NO,URI="https://raw.githubusercontent.com/tlball/hls-dubbing-m3u8-test/refs/heads/test-parent-master-playlist/fr/manifest.m3u8"

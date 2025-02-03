@@ -11,8 +11,8 @@ https://raw.githubusercontent.com/tlball/hls-dubbing-m3u8-test/refs/heads/test-p
 https://raw.githubusercontent.com/tlball/hls-dubbing-m3u8-test/refs/heads/test-parent-master-playlist/fr/index-f14-v1.m3u8
 
 #EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="audio0",NAME="Fr low",AUTOSELECT=YES,DEFAULT=NO,CHANNELS="2",URI="https://raw.githubusercontent.com/tlball/hls-dubbing-m3u8-test/refs/heads/test-parent-master-playlist/fr/index-f5-a1.m3u8",LANGUAGE="fr"
-#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="audio0",NAME="Fr* med",AUTOSELECT=YES,DEFAULT=YES,CHANNELS="2",URI="https://raw.githubusercontent.com/tlball/hls-dubbing-m3u8-test/refs/heads/test-parent-master-playlist/fr/index-f8-a1.m3u8",LANGUAGE="fr"
+#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="audio0",NAME="Fr* med",AUTOSELECT=YES,DEFAULT=NO,CHANNELS="2",URI="https://raw.githubusercontent.com/tlball/hls-dubbing-m3u8-test/refs/heads/test-parent-master-playlist/fr/index-f8-a1.m3u8",LANGUAGE="fr"
 #EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="audio0",NAME="Fr hi",AUTOSELECT=YES,DEFAULT=NO,CHANNELS="2",URI="https://raw.githubusercontent.com/tlball/hls-dubbing-m3u8-test/refs/heads/test-parent-master-playlist/fr/index-f12-a1.m3u8",LANGUAGE="fr"
 #EXT-X-MEDIA:TYPE=VIDEO,GROUP-ID="video",LANGUAGE="en",NAME="English-",AUTOSELECT=YES,DEFAULT=NO,URI="https://raw.githubusercontent.com/tlball/hls-dubbing-m3u8-test/refs/heads/test-parent-master-playlist/en/manifest.m3u8"
 #EXT-X-MEDIA:TYPE=VIDEO,GROUP-ID="video",LANGUAGE="es",NAME="Español-",AUTOSELECT=YES,DEFAULT=NO,URI="https://raw.githubusercontent.com/tlball/hls-dubbing-m3u8-test/refs/heads/test-parent-master-playlist/es/manifest.m3u8"
-#EXT-X-MEDIA:TYPE=VIDEO,GROUP-ID="video",LANGUAGE="fr",NAME="French*",AUTOSELECT=YES,DEFAULT=YES,URI="https://raw.githubusercontent.com/tlball/hls-dubbing-m3u8-test/refs/heads/test-parent-master-playlist/fr/manifest.m3u8"
+#EXT-X-MEDIA:TYPE=VIDEO,GROUP-ID="video",LANGUAGE="fr",NAME="French*",AUTOSELECT=YES,DEFAULT=NO,URI="https://raw.githubusercontent.com/tlball/hls-dubbing-m3u8-test/refs/heads/test-parent-master-playlist/fr/manifest.m3u8"
